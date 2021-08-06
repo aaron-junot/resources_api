@@ -14,11 +14,11 @@ SQLAlchemy = ">=1.3.0"
 
 [[package]]
 name = "algoliasearch"
-version = "2.4.0"
+version = "2.5.0"
 description = "Algolia Search API Client for Python."
 category = "main"
 optional = false
-python-versions = ">= 2.7, != 3.0.*, != 3.1.*, != 3.2.*, !=3.3.*"
+python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,>=2.7"
 
 [package.dependencies]
 requests = ">=2.21,<3.0"
@@ -660,8 +660,8 @@ alembic = [
     {file = "alembic-1.5.8.tar.gz", hash = "sha256:e27fd67732c97a1c370c33169ef4578cf96436fa0e7dcfaeeef4a917d0737d56"},
 ]
 algoliasearch = [
-    {file = "algoliasearch-2.4.0-py2.py3-none-any.whl", hash = "sha256:5f62155450949642fe6ae1c163d89630c9ffce9cca62901893ddc1ad3e653239"},
-    {file = "algoliasearch-2.4.0.tar.gz", hash = "sha256:525f9d50f5363c8ae6603a8e328d8c23957e825fdfe363ecbda55487a0140c76"},
+    {file = "algoliasearch-2.5.0-py2.py3-none-any.whl", hash = "sha256:789b0dbce108e8494803835036d9c54cd212f53bfd01fc253d2882bc8ff2d668"},
+    {file = "algoliasearch-2.5.0.tar.gz", hash = "sha256:55f30029d8be666c00cfb57ce2d14f0cde438ab720278aa25012fad61e4dc89d"},
 ]
 atomicwrites = [
     {file = "atomicwrites-1.4.0-py2.py3-none-any.whl", hash = "sha256:6d1784dea7c0c8d4a5172b6c620f40b6e4cbfdf96d783691f2e1302a7b88e197"},
